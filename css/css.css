@@ -1,0 +1,29 @@
+#welcome-para{
+	color: black; 
+	font-size: 100px; 
+	background-color: purple;
+	z-index: 2;
+}
+
+#fogVideo{
+	position: fixed;
+	right: 0;
+	bottom: 0;
+	min-width: 100%;
+	min-height: 100%;
+	z-index: -1;
+}
+
+#door1Video{
+	
+}
+
+#door2Video{
+	
+	
+}
+
+#door3Video{
+	
+	
+}

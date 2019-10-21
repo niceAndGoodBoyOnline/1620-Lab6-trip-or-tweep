@@ -1,0 +1,39 @@
+<!DOCTYPE: HTML>
+<html>
+	<head>
+	<link rel="stylesheet" href="./css/css.css"/>
+	</head>
+
+<body>
+	<video autoplay muted loop id="fogVideo">
+	<source src="./img/fog.mp4" type="video/mp4">
+	</video>
+	
+	
+	
+	<p id="welcome-para">Welcome to BCIT ACIT1620</p>
+	
+	<button type="button" onclick="makeOrange();">Orange</button>
+	<button type="button" onclick="makeGrey();">Grey</button>
+	<button type="button"onclick="makeCyan();">Cyan</button>
+	
+	<br>
+	<br>
+
+	<video id="door1Video" controls="controls" onended="videoSwitcher()">
+	<source src="./img/door open.mp4" type="video/mp4">
+	</video>	
+	
+	<video id="door2Video" controls="controls" onended="videoSwitcher()" >
+	<source src="./img/door open.mp4" type="video/mp4">
+	</video>
+	
+	<video id="door3Video" controls="controls" onended="videoSwitcher()">
+	<source src="./img/door open.mp4" type="video/mp4">
+	</video>
+	
+</body>
+
+
+<script src="./js/js.js"></script>
+</html>
