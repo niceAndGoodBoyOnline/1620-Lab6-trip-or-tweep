@@ -38,32 +38,37 @@ let count = 0;
 
 //Hello, I see you are reading my code. I forced you to see both nasty spooky tricks before
 //you could see the lovely meaningful naming conventions. Happy Halloween, Amir/Greg. I love u
-function videoSwitcher() {
-	
+function videoSwitcher(videoPlayerString) {
+
+	let videoPlayer = document.getElementById(videoPlayerString + 'Video');
+		
+
 	if (count == 0){
-		count += 1;
-		door1.src = "img/video.mp4";
-		door1.currentTime = 42;
-		door1.play();
+		count = 1;
+		videoPlayer.src = "img/video.mp4";
+		videoPlayer.currentTime = 43;
+		videoPlayer.play();
 		
 	}
 	
 	else if (count == 1){
-		count += 1;
-		door2.src = "img/video.mp4";
-		door2.currentTime = 52;
-		door2.play();
+		count = 2;
+		videoPlayer.src = "img/video.mp4";
+		videoPlayer.currentTime = 52;
+		videoPlayer.play();
 		
 	}
 	
 	else if (count == 2){
 		count = 0;
-		door3.src = "img/video.mp4";
-		door3.currentTime = 116;
-		door3.play();
+		videoPlayer.src = "img/video.mp4";
+		videoPlayer.currentTime = 116;
+		videoPlayer.play();
 		
 	}
+	
 }
+
 
 
 
